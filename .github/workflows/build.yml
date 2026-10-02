@@ -38,6 +38,7 @@ jobs:
 
           sudo "$HOME/xbps/usr/bin/xbps-install" \
             -r "$PWD/rootfs" \
+            -R https://repo-default.voidlinux.org/current \
             -S \
             -y \
             glibc \
